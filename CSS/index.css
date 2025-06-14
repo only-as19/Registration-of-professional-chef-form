@@ -146,3 +146,39 @@ input:focus{
 .primary-btn:focus{
     transform: scale(1.1);
 }
+
+/* ============
+    Media Query
+============ */
+
+@media (min-width:500px) {
+    body{
+        font-size: 1.125rem;
+        display: flex;
+    }
+
+    h1{
+       font-size: 3.5rem;
+    }
+
+    h2,
+    h1+p{
+        font-size: 1.75rem;
+    }
+
+    .intro,
+    .main{
+        width: 50%;
+        min-height: 100vh;
+    }
+
+    .main{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .container-intro{
+        height: 100%;
+    }
+}
