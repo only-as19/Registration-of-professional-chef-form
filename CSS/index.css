@@ -62,3 +62,32 @@ h1 + p{
 strong{
     font-weight: 900;
 }
+
+.intro{
+    background-image: url(pexels-igrejapreta-2491273.png);
+    background-size: cover;
+    background-position: center;
+    background-color: #404040;
+    padding: 0 0.5em 2em;
+    
+}
+
+
+.container{
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+.container-intro{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    min-height: 50vh;
+}
+
+
+/* main section */
+
+.main{
+    padding: 2em 1em;
+}
