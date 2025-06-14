@@ -91,3 +91,58 @@ strong{
 .main{
     padding: 2em 1em;
 }
+
+
+/* =========
+   Form
+========= */
+
+.form{
+    width: 80%;
+    margin: 0 auto;
+    max-width: 300px;
+}
+
+input,
+.btn{
+    width: 100%;
+}
+
+input{
+    font-family: inherit;
+    text-align: center;
+    margin-bottom: 0.75em;
+    padding: 0.25em;
+    border: 1px solid #404040;
+    border-radius: 5px;
+    transform: scale(1);
+    transition: transform 250ms;
+}
+
+input:hover,
+input:focus{
+    transform: scale(1.1);
+}
+
+.btn{
+    display: inline-block;
+    padding: 1em 1.5em;
+    font-size: 0.625rem;
+    letter-spacing: 1px;
+    font-weight: 900;
+    text-transform: uppercase;
+    border: 0;
+}
+
+.primary-btn{
+    background: linear-gradient(to left,#ff713b,#ffa51d);
+    color: white;
+    transform: scale(1);
+    transition: transform 250ms;
+}
+
+
+.primary-btn:hover,
+.primary-btn:focus{
+    transform: scale(1.1);
+}
